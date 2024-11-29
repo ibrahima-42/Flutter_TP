@@ -38,4 +38,9 @@ void main() {
   personne1.age = 20;
 
   personne1.voirInfo();
+
+  //cas ou les valeur son pas normale
+  personne1.nom = "";
+  personne1.age = -1;
+  personne1.voirInfo();
 }
